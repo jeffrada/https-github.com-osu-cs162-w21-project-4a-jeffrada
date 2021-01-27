@@ -25,9 +25,9 @@ def binary_search(a_list, target):
       first = middle + 1
     return None
 
-def bin_except(val, noval):
+def bin_except(num1, num2):
     try:
-        result = -1
+        result = 0
         print(result)
     except TargetNotFound:
         print("Target value not found.")
