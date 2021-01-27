@@ -23,8 +23,7 @@ def binary_search(a_list, target):
       last = middle - 1
     else:
       first = middle + 1
-  return -1
-
+    None
 
 def bin_except(valfound, valnotfound):
     try:
