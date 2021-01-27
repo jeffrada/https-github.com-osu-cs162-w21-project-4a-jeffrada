@@ -23,9 +23,9 @@ def binary_search(a_list, target):
       last = middle - 1
     else:
       first = middle + 1
+    return None
 
-
-def bin_except(one, two):
+def bin_except(val, noval):
     try:
         result = -1
         print(result)
