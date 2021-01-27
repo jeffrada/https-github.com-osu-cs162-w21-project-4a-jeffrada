@@ -26,7 +26,7 @@ def binary_search(a_list, target):
   return -1
 
 
-def bin_except(range):
+def bin_except(valfound, valnotfound):
     try:
         result = -1
         print(result)
