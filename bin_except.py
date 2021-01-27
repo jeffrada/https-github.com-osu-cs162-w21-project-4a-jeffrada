@@ -27,7 +27,7 @@ def binary_search(a_list, target):
 
 def bin_except(num1, num2):
     try:
-        result = -1
+        result = int()
         print(result)
     finally:
         raise TargetNotFound
