@@ -25,9 +25,9 @@ def binary_search(a_list, target):
       first = middle + 1
 
 
-def bin_except(valfound, valnotfound):
+def bin_except():
     try:
-        result = 7
+        result = -1
         print(result)
     except TargetNotFound:
         print("Target value not found.")
