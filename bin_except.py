@@ -23,11 +23,11 @@ def binary_search(a_list, target):
       last = middle - 1
     else:
       first = middle + 1
-    None
+
 
 def bin_except(valfound, valnotfound):
     try:
-        result = 0
+        result = 7
         print(result)
     except TargetNotFound:
         print("Target value not found.")
