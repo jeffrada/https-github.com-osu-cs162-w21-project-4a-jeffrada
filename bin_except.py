@@ -25,7 +25,7 @@ def binary_search(a_list, target):
       first = middle + 1
 
 
-def bin_except():
+def bin_except(yes, no):
     try:
         result = -1
         print(result)
