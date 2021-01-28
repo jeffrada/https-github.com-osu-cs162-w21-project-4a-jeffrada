@@ -23,4 +23,4 @@ def bin_except(a_list, target):
       last = middle - 1
     else:
       first = middle + 1
-    raise TargetNotFound
+  raise TargetNotFound
