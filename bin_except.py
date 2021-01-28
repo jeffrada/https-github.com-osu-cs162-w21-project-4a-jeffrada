@@ -7,7 +7,7 @@ class TargetNotFound(Exception):
     pass
 
 
-def binary_search(a_list, target):
+def bin_except(a_list, target):
   """
   Searches a_list for an occurrence of target
   If found, returns the index of its position in the list
@@ -23,11 +23,4 @@ def binary_search(a_list, target):
       last = middle - 1
     else:
       first = middle + 1
-    return TargetNotFound
-
-def bin_except(num1, num2):
-    try:
-        result = int()
-        print(result)
-    except TargetNotFound:
-        print("Target value not found.")
+    raise TargetNotFound("Target value not found.")
